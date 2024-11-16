@@ -17,3 +17,6 @@ vim.opt["shiftwidth"] = 4
 
 
 require("config.lazy")
+
+-- setting colorscheme to carbonfox (part of nightfox)
+vim.cmd("colorscheme carbonfox")
