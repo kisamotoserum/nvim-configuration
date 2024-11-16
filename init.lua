@@ -11,5 +11,9 @@ local options = { noremap = true }
 -- mapping jk to escape
 vim.keymap.set("i", "jk", "<Esc>", options)
 
+-- setting tab to 4 spaces
+vim.opt["tabstop"] = 4
+vim.opt["shiftwidth"] = 4
+
 
 require("config.lazy")
