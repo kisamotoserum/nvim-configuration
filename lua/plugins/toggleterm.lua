@@ -7,6 +7,7 @@ return {
 			local toggleterm = require("toggleterm")
 			toggleterm.setup({
 				open_mapping = [[<c-s>]],
+				direction = 'float',
 			})
 		end,
 	},

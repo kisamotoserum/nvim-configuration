@@ -15,6 +15,10 @@ vim.keymap.set("i", "jk", "<Esc>", options)
 vim.opt["tabstop"] = 4
 vim.opt["shiftwidth"] = 4
 
+-- setting relative line number and line number
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.signcolumn = "number"
 
 require("config.lazy")
 
