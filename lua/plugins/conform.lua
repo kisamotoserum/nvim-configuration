@@ -14,7 +14,7 @@ return {
           proto = { "buf" },
           rust = { "rustfmt" },
           sh = { "shellcheck" },
-          go = { "gofumpt" },
+          go = { "gofumpt", "goimports" },
         },
       })
 
